@@ -3,4 +3,5 @@ module.exports = (app) => {
 
     app.get('/', customer.index);
     app.get('/api/customer', customer.findAll);
+    
 }
